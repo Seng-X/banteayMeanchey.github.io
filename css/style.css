@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #02172d;
+    color: white;
+    font-family: "Kantumruy Pro", sans-serif;
+    line-height: 1.6;
+}
+.container {
+    margin-bottom: 30px;
+}
+.head {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.b {
+    color: dodgerblue;
+    font-weight: 500;
+}
+.str {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.h1__ > strong {
+    color: dodgerblue;
+}
+.detail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+.detail > p {
+    width: 50%;
+    text-align: justify;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.list__ > ul > li {
+    list-style-type: none;
+}
+.list__ > ul > li > a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.1s linear;
+}
+
+.list__ > ul > li > a:hover {
+    color: dodgerblue;
+}

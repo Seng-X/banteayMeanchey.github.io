@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #02172d;
+    color: white;
+    font-family: "Kantumruy Pro", sans-serif;
+    line-height: 1.6;
+}
+.container {
+    display: flex;
+    gap: 30px;
+}
+.content__left {
+    width: 15%;
+    background: #031d38;
+}
+
+.content__right {
+    width: 80%;
+}
+.active {
+    color: dodgerblue;
+}
+.bold {
+    color: dodgerblue;
+    font-weight: 500;
+}
+.bold-- {
+    color: dodgerblue;
+}
+.head > div > .h1__ > a {
+    text-decoration: none;
+    color: white;
+}
+.list {
+    margin: 10px;
+}
+.list > ul > li > h3 {
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid #8080805e;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+.list > ul > li {
+    list-style-type: none;
+}
+.list > ul > li > a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.1s linear;
+}
+
+.list > ul > li > a:hover {
+    color: #1e90ff;
+}
+
+.detail > p {
+    margin-top: 10px;
+    text-align: justify;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #8080805e;
+    padding: 5px 0px;
+    position: sticky;
+    top: 0px;
+    background-color: #02172d;
+}
+.head > div {
+    padding-left: 10px;
+}
+.menu {
+    padding-right: 40px;
+}
+.menu > ul {
+    display: flex;
+    list-style-type: none;
+}
+.menu > ul > a {
+    text-decoration: none;
+    color: white;
+}
+.menu > ul > a > li {
+    margin-left: 30px;
+    transition: all 0.2s linear;
+}
+.menu > ul > a:hover > li {
+    color: #1e90ff;
+}
+.container > .content__right > .image {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container > .content__right > .image > .--img {
+    background-color: #031d38;
+    width: 300px;
+    border: 2px solid #8080805e;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+.container > .content__right > .image > .--img > h4 {
+    font-weight: 500;
+    text-align: center;
+}
+.container > .content__right > .image > .--img:hover {
+    box-shadow: #1e8fff35 0px 6px 12px -2px, #1e8fff63 0px 3px 7px -3px;
+}
+.container > .content__right > .image > .--img > img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.detail > ol {
+    margin-left: 50px;
+}
+
+.administator {
+    margin-bottom: 20px;
+}
